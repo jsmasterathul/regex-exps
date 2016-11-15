@@ -14,4 +14,6 @@ Some tips that should be kept in mind while writting a regular expression
  [^\s] - any not-a-space, same as \S
  
  **2. The dot (.) matches anything (except for a newline).**
+ 
+ **3. The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_2.**
 
