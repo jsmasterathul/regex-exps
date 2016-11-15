@@ -12,4 +12,6 @@ Some tips that should be kept in mind while writting a regular expression
  [^0-9] - any non-digit, same as \D
  
  [^\s] - any not-a-space, same as \S
+ 
+ **2. The dot (.) matches anything (except for a newline).**
 
