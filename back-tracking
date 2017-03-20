@@ -1,0 +1,8 @@
+matching the group matched within the regex
+
+\b(\w+)\s\1\b
+
+(\w+) grouping one or more words
+\1 back reference the group catured
+
+This regex is used to match double words.
