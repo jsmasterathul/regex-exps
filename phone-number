@@ -1,0 +1,9 @@
+replace phone numbers
+
+222-333-4444,  222.333.4444, (222)333-4444
+
+REgex:  /\(?\d{3}[).-]\d{3}[.-]\d{4}/
+
+\(? an optional opening bracket, 
+\d{3} followed by three digits
+[).-]  ) or . or -
